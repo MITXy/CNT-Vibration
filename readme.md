@@ -21,22 +21,6 @@ The goal of this project is to develop models that can accurately predict the fr
 
 The dataset contains various features related to mechanical and environmental conditions, such as current magnitude, stiffness coefficient, mass coefficient, and thermal conditions. The target variables include the frequency and displacement for each of the five modes.
 
-### Data Features
-
-- **Current_Mag**: Current Magnitude (mA)
-- **Current_Phase**: Current Phase Angle (degree)
-- **Stiff_Coeff**: Stiffness Coefficient
-- **Mass_Coeff**: Mass Coefficient
-- **Thermal_Cond_Mag**: Thermal Condition Magnitude (C)
-- **Env_Temp**: Transient Environment Temperature (C)
-- **Pressure_Mag**: Pressure Magnitude (hbar)
-- **Magnetic_Flux_Max**: Magnetic Flux Density Maximum (mT)
-- **Force_Max**: Force Maximum (N)
-- **Mag_Field_Int_Max**: Magnetic Field Intensity Maximum (mA mm^-1)
-- **Mag_Field_Int**: Magnetic Field Intensity (mA mm^-1)
-- **mode1_displacement** to **mode5_displacement**: Displacements for modes 1 to 5 (mm)
-- **mode1_frequency** to **mode5_frequency**: Frequencies for modes 1 to 5 (Hz)
-
 ## Preprocessing
 
 ### Data Cleaning
